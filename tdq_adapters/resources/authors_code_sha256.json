@@ -1,0 +1,53 @@
+{
+ "description": "Expected SHA-256 of every file of XDaiNYU/TopoDockQ at the pinned commit, as shipped in authors_code/TopoDockQ. These are the exact files all milestones were verified against. .DS_Store files are ignored by the check. The feature generator's bytecode (main.pyc, src/*.pyc) is byte-identical to the separately published wangru25/TopoDockQ-Feature at commit 10f0cab.",
+ "repos": {
+  "TopoDockQ": {
+   "github": "XDaiNYU/TopoDockQ",
+   "commit": "5696f82e148fc4a2eb07962d5bbc333d06d76a74",
+   "license": "MIT (authors_code/TopoDockQ/LICENSE)",
+   "files": {
+    ".gitignore": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+    "01_tutorial_train.ipynb": "9303d77ee90ea689f9bedf276899c4d8685eb961b1479bbf0c63306e4ead558b",
+    "01_tutorial_train.py": "232f69f7d34edb7765694ab30c1c47b8304ebc83dd2709a2e1e6945007396a58",
+    "02_tutorial_inference.ipynb": "b54bec1e0766432d0a6bbd93d1038214b50f2278ca40980f2fe5ffab7e0c831b",
+    "02_tutorial_inference.py": "0cdebedd710cbc2c87d57105439ded37f219e122644543d5fcf40f890f079337",
+    "03_extract_features_from_npy_to_csv.py": "4d78d57743d0b5e088607468d1ff9c2ae7f2506b81139fc5bf66c53e0b2dfda4",
+    "04_inference_from_generated_csv.py": "1de4c37c54c10992c133215a7a10bad82d75584060ea72d84ceeb767ec3949dc",
+    "data/.DS_Store": "017b389b266757df6a905f0ae7c1c024144bafbf7ec2cee12e36fcbc7cc7976a",
+    "data/interface_files/2fns_ranked_3_sp_interface.pdb": "67f4fdfaa3217a226f72674d08bc0d494a05bdb61dc2fdc43018bfa568ac38ca",
+    "data/interface_files/4k38_ranked_44_sp_interface.pdb": "c780397a4c447fd990bcbcab4394faa6ca0c0475b9b6185369278d0ea3c12019",
+    "data/notes.md": "6b65b9697aed21e448afb20ce87d1346041aaf4dada9d185f4a99036326957e6",
+    "data/PDB_ID/PDB_ID_dataset_info.csv": "d3e4943949ec2cd00c52af291f83e7d12f8e495894160fdfc274d647c3332654",
+    "data/PDB_ID/singlePPD_test_LowSimilarity_similarity_30.csv": "d39074c48dbd88b27237f01c31332eaad9c2ca495519a8dd9465ca819059e016",
+    "data/processed_data/download_guidance.md": "db4324557e0c43023b6fb218fc47b36a1501609055362384ea7649be7a55ba95",
+    "data/sequence_similairty.zip": "918597f2c46b42636cc47aa61cdd0d3502c295f382d13abc615205aa0cdb6d23",
+    "data/singlePPD_test_comprehensive_similarity_30.csv.zip": "cdfc15edb05a5980e99564fb884040dec0061dd712f198ec8a5577a61ef1d71a",
+    "environment.yaml": "913c0287fbe7f74e832c30e30634831a6e9cc7eb22f309ec4cfcf988ba575e19",
+    "feature/example_features.csv": "24f1e90a31361704f78d1ae962e94da59ff8e5288a642819b79a9963e182ec3f",
+    "feature/feature_4k38_ranked_44_sp_interface.npy": "64324109b3efe446048553046974c3a7b8091ce400874d66640fc7090ad3492c",
+    "image/combine_all.jpg": "84d27d7d58b2d08374da1bde329210b657743a93755c1f8336a048c3d2eadc1b",
+    "LICENSE": "e56771c03bfccbb77a4ea39fbb34e8f97ad364d4461a377ab94af5e5c42dabbe",
+    "main.pyc": "9849c896cdd56d768e6e6360b09644e6394400ba5ddb2035a82efde26f52ebff",
+    "models/download_guidance.md": "61f29eab32b4964a7e3d167a54d4e6402fd0d118038a7473122705ac76c3b25a",
+    "README.md": "c33d871bc848d25c865e2f1d81cf7b5f2c675aea1749688b40c126ba09a390b5",
+    "results/notes.txt": "77ba658236ddbf941a054057c3b4ccdd5dc033a8c2d26b0261048410a805189d",
+    "results/ResidueX_ncAA_peptides_TopoDockQ_RMSD_results.csv": "2d0e6e9d5c38f61dc57dc49da5799e1c8bf72c9dd1d11dbc541b47e5a82b729c",
+    "src/.DS_Store": "a94a2c2b001a379e52241fec7c50222a3dab77ebdf1c08d300881a2b39cb87bd",
+    "src/__init__.pyc": "32727176be866a248b3ea49e3ebc952cb1999afbb9a206ded2d885291a8530f8",
+    "src/__pycache__/model.cpython-310.pyc": "cc13540babe26a6088345c666d2a2f4c2ed904df6d5096bc395c5b18b11a5499",
+    "src/__pycache__/train.cpython-310.pyc": "fbb41e63c6810467511b9c50f2bee4cccd5af4bc33b7a4da29182f5a49e2bccc",
+    "src/example/1b3l_crystal.pdb": "3da70dcbdc75129003c1dc01a75ac9ab2f8ac3522cd69928ed8050d8a118e906",
+    "src/example/1b3l_interface.pdb": "3b7584504b8acd8601c83be433a92d4aa4798368df0d8d79e9d1ca7e94c30e67",
+    "src/extract_interface.py": "3c0b677c999872b9d6f0441651dccda12289a79d86e78b23aa0d68087173e7eb",
+    "src/get_MLfeature.pyc": "91f66f8bed669dd43917b51cbd589f1be2a5672931ade8fda159db4027e31db9",
+    "src/get_PHcomplex.pyc": "cb7c02c0e477d2f29988dcd92b589c53943c6a9c099afb4d43435632cdb6f078",
+    "src/get_PHinputs.pyc": "af9d3dde492c15ccc8ba12583e60b2fe488599e2554431fe299de6918af2a37b",
+    "src/model.py": "66596643d9693703571e695c9c8e0c39feed55e2d9d50690bd5e087511ca39e1",
+    "src/prody_environment.yml": "509268bd7be4616fee1c6e9881b6cfcad9e01433c2293c5be9b1104dbd1cd696",
+    "src/read_pdb.pyc": "6e7d100ca47ed6e70d08622ce45b76e7b886f57f47dd8faeea9a0ea704cdb0cd",
+    "src/README.md": "71b9caf86fbf1411b589ba02c4302c4a0f43f9f6052d9971913192504697f69b",
+    "src/train.py": "15a1df709c28509b422a83f61b0900c06333217c5147bd0f0f2efbb1c4126b1f"
+   }
+  }
+ }
+}

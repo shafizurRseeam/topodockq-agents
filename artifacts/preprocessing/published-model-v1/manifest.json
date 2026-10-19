@@ -1,0 +1,56 @@
+{
+  "package_id": "published-model-v1",
+  "feature_schema": "topodockq-v1",
+  "created": "2026-10-19T14:52:15",
+  "mirrors_script": {
+    "path": "authors_code/TopoDockQ/04_inference_from_generated_csv.py",
+    "sha256": "1de4c37c54c10992c133215a7a10bad82d75584060ea72d84ceeb767ec3949dc",
+    "lines": "63-153 (selection and scaler fit)"
+  },
+  "checkpoint": {
+    "path": "data/trained_model/best_model.pth",
+    "sha256": "2cd77ac0fe51b07170c0c4699945ae277d101656f6adcb356b5b5ca2551c15f3"
+  },
+  "sources": {
+    "data/processed_data/singlePPD_full_bins_features.csv": "1c095bdf10a3178a92be5da1958a88f44098ab211562b971b9941e16587787aa",
+    "data/processed_data/singlePPD_DockQ.csv": "bf03ba9a4f31d3997c2d08252a42b5c67868652a1336e2c66803c23839924afd"
+  },
+  "rows": {
+    "features_csv": 53319,
+    "after_merge": 53319,
+    "scaler_fit_rows_train": 34376
+  },
+  "n_raw_feature_columns": 2754,
+  "n_dropped_columns": 108,
+  "n_feature_columns": 2646,
+  "model_hparams": {
+    "input_dim": 2646,
+    "neurons1": 2048,
+    "neurons2": 2048,
+    "neurons3": 2048,
+    "neurons4": 2048,
+    "dropout": 0.0
+  },
+  "model_class": {
+    "path": "authors_code/TopoDockQ/src/model.py",
+    "sha256": "66596643d9693703571e695c9c8e0c39feed55e2d9d50690bd5e087511ca39e1",
+    "name": "TopoDockQ"
+  },
+  "library_versions": {
+    "python": "3.13.7",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "numpy": "2.3.3",
+    "pandas": "3.0.6",
+    "sklearn": "1.9.1",
+    "scipy": "1.18.1",
+    "torch": "2.14.0+cu126",
+    "gudhi": "3.13.0",
+    "matplotlib": "3.11.2"
+  },
+  "build_seconds": 39.0,
+  "files": {
+    "feature_columns.json": "64e0827f3802b79712c336b3dc11e7b9a41beeabf2accb68962fae01e48e511b",
+    "dropped_columns.json": "ef4c5d7ae28fadb970853c5f3833f9a06e0c3b8413b1f3d46d39abbab636be92",
+    "scaler.npz": "f6719d36d958ded507a9f14635429950f8ca27c9c30a9096caab7cb649928696"
+  }
+}

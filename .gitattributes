@@ -1,0 +1,5 @@
+# Files whose exact bytes are verified by hash must be checked out exactly as committed:
+# no line-ending conversion (Windows git defaults to converting LF to CRLF on checkout).
+authors_code/** -text
+artifacts/** -text
+tdq_adapters/resources/** -text

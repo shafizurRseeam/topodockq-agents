@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "topodockq-agents"
+version = "0.1.0"
+description = "An LLM-based multi-agent framework for protein-peptide complex quality assessment, built around the published TopoDockQ pipeline."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "anthropic>=1.7.0",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    "scikit-learn>=1.5",
+    "gudhi>=3.10",
+    "torch>=2.5",
+    "matplotlib>=3.8",      # imported by the authors' training/inference scripts
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[project.scripts]
+topodockq = "topodockq_agents.pipeline:main"
+topodockq-setup = "tdq_adapters.bootstrap:main"
+
+[tool.setuptools.packages.find]
+include = ["topodockq_agents*", "tdq_adapters*"]
+
+[tool.setuptools.package-data]
+tdq_adapters = ["resources/*.json"]
+
+# CPU build of PyTorch on every platform: the published model is a small MLP and runs on CPU in well under a
+# second per batch, and the default Linux wheels would otherwise pull several GB of CUDA libraries.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

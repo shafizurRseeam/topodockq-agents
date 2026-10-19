@@ -1,0 +1,3558 @@
+{
+ "archive_sha256": "d6d7c5fd6f1c01440fcdb0fe78a126b2a4f07c6da1f5dff43b687091a0682435",
+ "archive": "data/zenodo/singlePPD_interface_files.tar.gz",
+ "files": 147756,
+ "unparsed_names": [],
+ "empty_files": 879,
+ "empty_with_label_row": 2,
+ "empty_with_label_row_by_split": {
+  "train": 2
+ },
+ "empty_with_feature_row": 2,
+ "empty_among_missing_candidates": 707,
+ "missing_candidates_total": 1699,
+ "share_of_missing_candidates_explained": 0.4161,
+ "empty_neither_labelled_nor_missing": 170,
+ "empty_neither_labelled_nor_missing_complexes": [
+  "1b9j",
+  "2cwg",
+  "3ch8",
+  "3gw1",
+  "3t64",
+  "4cic",
+  "6cwp",
+  "6hos",
+  "6mwz",
+  "6rup"
+ ],
+ "missing_candidates_with_nonempty_interface_file": 894,
+ "missing_candidates_without_interface_file": 98,
+ "empty_with_feature_row_keys": [
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "4nz8",
+   "af_model_id": 48
+  }
+ ],
+ "empty_keys": [
+  {
+   "pdb_id": "1b05",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "1b05",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "1b05",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "1b05",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "1b05",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "1b05",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1b05",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "1b32",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "1b32",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1b32",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "1b3l",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "1b3l",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "1b3l",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "1b3l",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "1b3l",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "1b3l",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "1b3l",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "1b3l",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "1b3l",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1b3l",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "1b40",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "1b40",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "1b40",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "1b40",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "1b40",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "1b40",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "1b40",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1b40",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "1b46",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "1b46",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "1b46",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "1b46",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "1b46",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "1b46",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "1b46",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "1b46",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "1b46",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1b46",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "1b4z",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "1b58",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "1b58",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "1b58",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "1b58",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "1b58",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "1b58",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1b58",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "1b9j",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1b9j",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "1hqw",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "1hqw",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "1hqw",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "1hqw",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "1hqw",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1jet",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "1jet",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "1jet",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "1jet",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "1jet",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1jet",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1ola",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 18
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 19
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 20
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 22
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1olc",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "1qka",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "1qka",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "1qka",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "1qka",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "1qka",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "1qka",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "1qka",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "1qka",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "1qka",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1qka",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "1xoc",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "1xoc",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "1xoc",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "1xoc",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "1xoc",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "1xoc",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "1xoc",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "1xoc",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "2bha",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "2cwg",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "2olb",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "2olb",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "2olb",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "2olb",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "2olb",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "2olb",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "2olb",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "2olb",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "2olb",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "2olb",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "2olb",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "2olb",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "2pc4",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "2q3c",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "2q3c",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "2q3c",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "2qbw",
+   "af_model_id": 19
+  },
+  {
+   "pdb_id": "2qbw",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "2qbw",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "2qbw",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "2qbw",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "2qbw",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "2wok",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 20
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 22
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "2z23",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "3b7s",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "3b7s",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "3b7s",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "3b7s",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "3b7t",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "3b7t",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "3b7t",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "3b7t",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "3b7t",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "3b7t",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "3b7t",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "3b7t",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "3b7t",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "3b7t",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "3ch8",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "3ch8",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "3ch8",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "3ch8",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "3ch8",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "3ch8",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "3ch8",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "3g19",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "3g19",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "3g19",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "3g19",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "3g19",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "3g19",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "3g19",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "3g19",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "3g19",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "3g19",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 1
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 2
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 4
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 5
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 6
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 9
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 10
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 11
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 12
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 13
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 14
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 15
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 16
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 17
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 18
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 19
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 20
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 22
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "3gw1",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 9
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 10
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 11
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 12
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 13
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 14
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 15
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 16
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 17
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 18
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 19
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 20
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 22
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "3iqg",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "3iqh",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "3iqh",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "3iqh",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "3iqh",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "3iqh",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "3iqi",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 1
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 2
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 3
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 4
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 5
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 6
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 7
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 8
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 9
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 10
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 11
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 12
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 13
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 14
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 15
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 16
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 17
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 18
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 19
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 20
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "3lae",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "3lge",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "3lge",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "3lge",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "3mpj",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 15
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "3t4p",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "3t64",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "3tbh",
+   "af_model_id": 13
+  },
+  {
+   "pdb_id": "3tbh",
+   "af_model_id": 14
+  },
+  {
+   "pdb_id": "3tbh",
+   "af_model_id": 16
+  },
+  {
+   "pdb_id": "3tbh",
+   "af_model_id": 17
+  },
+  {
+   "pdb_id": "3tbh",
+   "af_model_id": 18
+  },
+  {
+   "pdb_id": "3tbh",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "3tbh",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "3tbh",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "3tbh",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "3tbh",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "3tbh",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 22
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "3zs6",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "4c5a",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "4c5a",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "4c5a",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "4c5a",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "4c5a",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "4c5a",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "4c5a",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "4cic",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "4ka7",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "4ka7",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "4naq",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "4naq",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "4naq",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "4naq",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "4naq",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "4naq",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "4nz8",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "4nz8",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "4pd1",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "4wvh",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "5cp0",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 18
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "5iz2",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "5t63",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "5t63",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6cwp",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "6cwp",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "6cwp",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6cwp",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6cwp",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6cwp",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6cwp",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6cwp",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6cwp",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6cwp",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6cwp",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 22
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6dqq",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6dqr",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6dqr",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6dqr",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6dqr",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6dqr",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6dqr",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6dqr",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6dqr",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6dqt",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6dqt",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6dqu",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 16
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 17
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 18
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 19
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 22
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6dtf",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6e4d",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "6e4d",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6e4d",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6e4d",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6e4d",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6e4d",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6e4d",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6e4d",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6e4d",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6e4d",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6eop",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6g5f",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6g5f",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6g5f",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6g5f",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6g5g",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "6g5g",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "6g5g",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6g5g",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6g5g",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6g5g",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6g5g",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6g5g",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6g5g",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6g5g",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6g5g",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6ghj",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6hos",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "6hos",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "6hos",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "6hos",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "6hos",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6hos",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6hos",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6hos",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6hos",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6hos",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6hos",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6ikg",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "6ikg",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6ikg",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6ikg",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6ikg",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6ikg",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6ikg",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6ikg",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6ikg",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6ikg",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 19
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 20
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 22
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6jf6",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6jfa",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "6jfa",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6jfa",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6jfa",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6jfa",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6jfa",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6jfa",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6jfa",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6jfa",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6jfa",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 10
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 11
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 12
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 13
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 14
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 15
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 16
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 17
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 18
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 19
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 20
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 22
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6mwz",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6pu3",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6pu3",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6pu3",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6pu3",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6pu3",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6pu3",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6pu3",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 0
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 1
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 2
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 3
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 4
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 5
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 6
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 7
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 8
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 9
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 10
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 11
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 12
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 13
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 14
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 15
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 16
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 17
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 18
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 19
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 20
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 22
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6rup",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6tj1",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "6tj1",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "6tj1",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "6tj1",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "6tj1",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6tj1",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6tj1",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6tj1",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6tj1",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6tj1",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6tj1",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 5
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 6
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 7
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 8
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 9
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 10
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 11
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 12
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 13
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 14
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 15
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 16
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 17
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 18
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 19
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 20
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 21
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 22
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 23
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 24
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 25
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 26
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 27
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 28
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 29
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 30
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 31
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 32
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 33
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 36
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 37
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 38
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 39
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 40
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6v55",
+   "af_model_id": 49
+  },
+  {
+   "pdb_id": "6yn0",
+   "af_model_id": 34
+  },
+  {
+   "pdb_id": "6yn0",
+   "af_model_id": 35
+  },
+  {
+   "pdb_id": "6yn0",
+   "af_model_id": 41
+  },
+  {
+   "pdb_id": "6yn0",
+   "af_model_id": 42
+  },
+  {
+   "pdb_id": "6yn0",
+   "af_model_id": 43
+  },
+  {
+   "pdb_id": "6yn0",
+   "af_model_id": 44
+  },
+  {
+   "pdb_id": "6yn0",
+   "af_model_id": 45
+  },
+  {
+   "pdb_id": "6yn0",
+   "af_model_id": 46
+  },
+  {
+   "pdb_id": "6yn0",
+   "af_model_id": 47
+  },
+  {
+   "pdb_id": "6yn0",
+   "af_model_id": 48
+  },
+  {
+   "pdb_id": "6yn0",
+   "af_model_id": 49
+  }
+ ]
+}
