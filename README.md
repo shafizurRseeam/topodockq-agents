@@ -163,15 +163,39 @@ system-wide `ANTHROPIC_API_KEY`.
 uv run topodockq --input data/external/PFPD_AF2_models/1AWR --dry-run
 ```
 
-**Run the agents:**
+**Run the agents.** Give the input (`--input`) and a request in plain language (`--task`). The MainAgent
+reads the request, hands the work to DataAgent, TopoAgent and MLAgent in turn, and writes a report. A run is
+not a chat: it goes to the end on its own, about two minutes for a few dozen structures, and the
+agents cannot ask you anything along the way. If something is missing, such as a wrong path, they stop and
+say what they need instead of guessing. To change anything, run again with a new request; every run gets its
+own folder. Check your key first with `uv run topodockq --check` (free).
 
 ```bash
-uv run topodockq --input data/external/PFPD_AF2_models \
+uv run topodockq --input data/external/PFPD_AF2_models --expect-structures 30 \
     --task "For complexes 1AWR, 1ER8 and 2FMF, rank AlphaFold models 0 to 9 and tell me the best model per complex."
+
+uv run topodockq --input data/external/PFPD_AF2_models \
+    --task "For complex 1AWR, score models 0 to 4 using the authors' original feature code and tell me the best model."
+
+uv run topodockq --input data/external/PFPD_AF2_models/1ER8 \
+    --task "Score every model. Chain A is the protein and chain B is the peptide. Tell me the best model and anything that looks suspicious."
 ```
 
-The request is plain language: you can name complexes or models, ask for the authors' original feature code,
-or ask for everything in the input. Useful options:
+In PowerShell, write each command on one line (PowerShell continues lines with a backtick, not `\`).
+
+Describe what you want, not the steps; the workflow is built in. A request can set:
+
+- which structures: complexes, model numbers, or the first N models of each complex (with no narrowing,
+  everything in the input is scored);
+- the chain roles, if you know them ("chain A is the protein and chain B is the peptide");
+- the authors' original feature code instead of the default Python 3.13 port (slower, identical features);
+- what the report should focus on.
+
+A request cannot change the method. The 10 Å interface cutoff, the features, the published model and its
+preprocessing, and the 0.82 threshold are fixed; nothing is retrained; structures are excluded only by the
+fixed validation rules. If you ask for any of these, the MainAgent is told to say so and do what it can.
+
+Options you set on the command line, outside the agents' control:
 
 | Option | Effect |
 |---|---|
@@ -179,6 +203,29 @@ or ask for everything in the input. Useful options:
 | `--strict` | a complex whose top-1 candidate has unconfirmed, implausible chain roles is marked `needs_confirmation` instead of `accepted` |
 | `--mode sequential` | run DataAgent, TopoAgent and MLAgent in fixed order without the MainAgent |
 | `--no-verify` | skip the deterministic re-check |
+| `-q` | hide the live progress lines |
+
+**While it runs**, the terminal shows every tool call an agent makes, with its arguments (this is where the
+agents' decisions are visible), and each agent's summary when it finishes. An excerpt from a run that asked
+for the authors' original feature code (timestamps and logger names removed, long lines cut):
+
+```text
+[MainAgent] -> run_data_agent({"instructions": "Input source: data/external/PFPD_AF2_models. Select complexes 1AWR, 1ER8 and 2FMF only, AlphaFold models 0 to 9 (10 models per complex, 30 structures expected). ...
+[DataAgent] -> build_structure_manifest({"source": "data/external/PFPD_AF2_models", "complexes": ["1AWR", "1ER8", "2FMF"], "models": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]})
+[DataAgent] -> check_structures({})
+[DataAgent] -> prepare_interfaces({"workers": 8})
+[DataAgent] I registered all 30 structures (1AWR, 1ER8 and 2FMF, models 0–9) and extracted their interfaces. ...
+[MainAgent] -> run_topo_agent({"instructions": "Use the \"original\" feature engine (the authors' original feature code), as requested by the user. ...
+[TopoAgent] -> generate_features({"engine": "original", "workers": 8})
+[TopoAgent] -> check_features({})
+[MainAgent] -> run_ml_agent({"instructions": "Predict p-DockQ for all 30 structures with features and rank candidates per complex ...
+[MLAgent] -> check_model_package({})
+[MLAgent] -> predict_pdockq({"device": "cpu"})
+[MLAgent] -> rank_candidates({})
+```
+
+Pauses between lines are the scientific tools working; no LLM is involved in them. The full record,
+including the agents' reasoning summaries, is in the run's `trace.jsonl`.
 
 **Your own structures.** Protein as chain A, peptide as chain B, in any of these forms:
 
@@ -213,7 +260,7 @@ The selection itself is audited too: the structure list must match a fresh scan 
 recorded selection, and with `--expect-structures` its size must match yours. A run whose checks fail, or that
 crashes, still writes its report and trace, with run status `failed`.
 
-Example: the request above produced this ranking (p-DockQ is a predicted DockQ; above 0.82 counts as
+Example: the first request above gives this ranking (p-DockQ is a predicted DockQ; above 0.82 counts as
 predicted high quality):
 
 | complex | top-1 candidate | p-DockQ | predicted high quality |
@@ -224,6 +271,17 @@ predicted high quality):
 
 With Claude Sonnet 5.5 that run took under two minutes and used about 25,000 input and 3,000 output tokens,
 a few cents at current API prices. The independent re-check matched it exactly.
+
+**From Python, with the agents** (the same as the command line):
+
+```python
+from topodockq_agents.config import Settings
+from topodockq_agents.pipeline import run_pipeline
+
+settings = Settings.from_env(input_source="data/external/PFPD_AF2_models", expected_structures=5)
+state = run_pipeline("For complex 1AWR, score models 0 to 4 and tell me the best model.", settings)
+print(state.run_dir)        # report.md, artifacts/ and trace.jsonl
+```
 
 **From Python, without agents:**
 
